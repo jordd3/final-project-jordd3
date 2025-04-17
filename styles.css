@@ -1,0 +1,126 @@
+/* === BACKGROUND IMAGE === */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://www.daysoftheyear.com/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Ch=675%2Cq=85%2Cw=1200/wp-content/uploads/international-day-of-charity-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #e0e0e0;
+    line-height: 1.6;
+  }
+  
+  /* === HOMEPAGE BOX === */
+  .home-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 2rem;
+    max-width: 500px;
+    margin: 8rem auto;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  /* === BUTTON STYLES === */
+  .cta-button,
+  .button-link,
+  .nav-button {
+    display: inline-block;
+    background-color: transparent;
+    color: #e0e0e0;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 1.2rem;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .cta-button:hover,
+  .button-link:hover,
+  .nav-button:hover {
+    background-color: #40c4ff;
+    color: #121212;
+    border-color: #40c4ff;
+    transform: translateY(-2px);
+  }
+  
+  /* === CHARITY GRID === */
+  .charity-grid {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .charity-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  /* === SEARCH BAR === */
+  .search-bar {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem auto;
+    display: block;
+    padding: 0.5rem;
+    background-color: #1f1f1f;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #e0e0e0;
+  }
+  
+  /* === PROFILE PAGE LAYOUT === */
+  .profile-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 10px;
+  }
+  
+  .volunteer-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type='text'],
+  input[type='email'] {
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+  }
+  
+  input[type='submit'] {
+    background-color: transparent;
+    color: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #40c4ff;
+    color: #121212;
+    border-color: #40c4ff;
+  }
+  
+  /* === NAV LINK CONTAINER === */
+  .nav-links {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
