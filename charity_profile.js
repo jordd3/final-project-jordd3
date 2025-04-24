@@ -9,15 +9,23 @@ document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('volunteerForm');
 
 form.addEventListener('submit', function (event) {
-  event.preventDefault(); // Prevents reload
+  event.preventDefault(); // Stop default behavior
+
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
 
   alert(`Thank you, ${name}! We'll contact you at ${email}.`);
 
+  // Optional: Clear and hide the form
   form.reset();
-  form.style.display = 'none';
+  formSection.style.display = 'none';
+
+  // ✅ Redirect to news page after 1 second
+  setTimeout(() => {
+    window.location.href = 'news.html';
+  }, 1000);
 });
+
 
   // BONUS INTERACTIVE ELEMENT
   const moreInfoBtn = document.createElement('button');
